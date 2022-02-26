@@ -1,0 +1,24 @@
+*************************
+* Homework 4 Reflection *
+*************************
+Name: 
+UW NETID:   
+STUDENT ID:
+
+-----------------------------------------------------------
+Questions:
+1. Homework 4 forced you to follow the hypertext transfer protocol.
+Describe one convenient feature (i.e., good design decision)
+of this protocol in sending and receiving requests.
+Describe one difficulty or annoyance you encountered with this protocol. 
+
+Answer:
+
+2. In HW4, we implemented a HTTP Server with the use of a thread pool
+to concurrently handle each client connection. As discussed in lecture,
+one of the biggest concerns with using threads is the need for synchronization
+on shared resources, which we have done with locks. Despite threads sharing
+the index and static files, we didn't have locks on these for HW4. Briefly
+explain what behavior in our server made it so locks were not needed.
+
+Answer:
